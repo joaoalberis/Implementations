@@ -1,0 +1,90 @@
+* {
+    font-family: Helvetica;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%; /* 1rem = 10px */
+}
+
+body {
+    background-color: #282A36;
+    color: aliceblue;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-top: 1rem;
+}
+
+ul li {
+    margin-right: 12px;
+}
+
+ul li a {
+    color: #d6e92f;
+    text-decoration: none;
+    background-color: gray;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+section {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+section p {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 5rem;
+}
+
+section input {
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+    width: 30rem;
+    height: 3rem;
+    border-radius: 1rem;
+}
+
+section input:placeholder-shown {
+    border-color: yellowgreen;
+    border-width: .18rem;
+}
+
+input:not(:placeholder-shown) {
+    border-color: green;
+    border-width: .18rem;
+  }
+
+section button {
+    margin-top: 2rem;
+    border-radius: .5rem;
+    padding: .8rem;
+    background-color: greenyellow;
+    cursor: pointer;
+    border-color: greenyellow;
+}
+
+section button:hover {
+    background-color: green;
+    border-color: green;
+}

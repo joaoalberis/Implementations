@@ -1,0 +1,7 @@
+com\estudojava\parkingcontrol\repositories\ParkingSpotRepository.class
+com\estudojava\parkingcontrol\dtos\ParkingSpotDto.class
+com\estudojava\parkingcontrol\models\ParkingSpotModel.class
+com\estudojava\parkingcontrol\configs\DataConfig.class
+com\estudojava\parkingcontrol\ParkingControlApplication.class
+com\estudojava\parkingcontrol\services\ParkingSpotService.class
+com\estudojava\parkingcontrol\controllers\ParkingSpotController.class

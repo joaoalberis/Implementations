@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parking Register</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h2>Parkings Register</h2>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="register.html">Register</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <!-- Lugar para Registrar! -->
+        
+            
+            <p>Register your Spot</p>
+                <input type="text" placeholder="Write the parkingSpotNumber" id="parkingSpotNumber" maxlength="10"></input>
+                <input type="text" placeholder="Write the licensePlateCar" id="licensePlateCar" maxlength="7"></input> 
+                <input type="text" placeholder="Write the brandCar" id="brandCar" maxlength="70"></input> 
+                <input type="text" placeholder="Write the modelCar" id="modelCar" maxlength="70"></input> 
+                <input type="text" placeholder="Write the colorCar" id="colorCar" maxlength="70"></input> 
+                <input type="text" placeholder="Write the responsibleName" id="responsibleName" maxlength="130"></input> 
+                <input type="text" placeholder="Write the apartment" id="apartment" maxlength="30"></input> 
+                <input type="text" placeholder="Write the block" id="block" maxlength="30"></input> 
+
+                <button type="submit" onclick="confirmar()">Confirm</button>
+    </section>
+</body>
+<script src="scripts/index.js"></script>
+</html>
